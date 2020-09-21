@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ryan/mnt/dotnet-core/dotnet-core.csproj": {}
+    "/Users/ryan/AmezmoCodeWorkSpace/dotnet-core/dotnet-core.csproj": {}
   },
   "projects": {
-    "/home/ryan/mnt/dotnet-core/dotnet-core.csproj": {
+    "/Users/ryan/AmezmoCodeWorkSpace/dotnet-core/dotnet-core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ryan/mnt/dotnet-core/dotnet-core.csproj",
+        "projectUniqueName": "/Users/ryan/AmezmoCodeWorkSpace/dotnet-core/dotnet-core.csproj",
         "projectName": "dotnet-core",
-        "projectPath": "/home/ryan/mnt/dotnet-core/dotnet-core.csproj",
-        "packagesPath": "/home/ryan/.nuget/packages/",
-        "outputPath": "/home/ryan/mnt/dotnet-core/obj/",
+        "projectPath": "/Users/ryan/AmezmoCodeWorkSpace/dotnet-core/dotnet-core.csproj",
+        "packagesPath": "/Users/ryan/.nuget/packages/",
+        "outputPath": "/Users/ryan/AmezmoCodeWorkSpace/dotnet-core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ryan/.nuget/NuGet/NuGet.Config"
+          "/Users/ryan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }
