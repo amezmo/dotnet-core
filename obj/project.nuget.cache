@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aXoAvTAUtgN7NfHjO7VgNz77EdXdukdfFTD7PC6BUWFySiiDf4z7Ak+Vrnh1qXE0ShBkLRYt7dbjiIBTeYG+Dg==",
+  "dgSpecHash": "QoaOiCSf9BI/4e5zerfoPD+1h6ujXhTzH9RTLtlNkjHwLCEUDAKTgUI+YOPDK0dRxk3RtDgPfpKyLPl8/RuPtg==",
   "success": true,
-  "projectFilePath": "/Users/ryan/AmezmoCodeWorkSpace/dotnet-core/dotnet-core.csproj",
+  "projectFilePath": "/home/ryan/mnt/dotnet-core/dotnet-core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

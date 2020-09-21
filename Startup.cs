@@ -44,7 +44,7 @@ namespace dotnet_core
 
             app.UseDeveloperExceptionPage();
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
             
             app.UseStaticFiles();
 
