@@ -26,6 +26,7 @@ namespace dotnet_core
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +60,7 @@ namespace dotnet_core
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllers();
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
