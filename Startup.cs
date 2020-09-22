@@ -63,7 +63,7 @@ namespace dotnet_core
                 endpoints.MapControllers();
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!, this is an update");
+                    await context.Response.WriteAsync("This is another update!");
                 });
             });
 
