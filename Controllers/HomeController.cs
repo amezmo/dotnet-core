@@ -26,9 +26,9 @@ namespace dotnet_core.Controllers
             // https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/proxy-load-balancer?view=aspnetcore-5.0#forwarded-headers
             return new JsonResult(new {
                 // X-Forwarded-For
-                Client = HttpContext.Connection.RemoteIpAddress,
+                Client = HttpContext.Connection.RemoteIpAddress.ToString(),
                 // Host X-Forwarded-Host
-                Host = HttpContext.Request.Host,
+                Host = HttpContext.Request.Host.ToString(),
                 // X-Forwarded-Proto
                 XForwardedForScheme = HttpContext.Request.Scheme,
                 IsHttps = Request.IsHttps,
