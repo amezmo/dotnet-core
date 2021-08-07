@@ -25,6 +25,7 @@ namespace dotnet_core
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var databasePassword = Configuration.GetValue<string>("Database:Password");
             services.AddControllers();
         }
 
@@ -61,6 +62,9 @@ namespace dotnet_core
             {
                 endpoints.MapControllers();
             });
+
+            // dotnet user-secrets init
+            // dotnet user-secrets set "Movies:ServiceApiKey" "12345"
         }
     }
 }
