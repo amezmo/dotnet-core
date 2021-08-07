@@ -24,6 +24,8 @@ namespace dotnet_core.Controllers
             };
 
             return new JsonResult(new {
+                Client = Request.HttpContext.Connection.RemoteIpAddress,
+                IsHttps = Request.IsHttps,
                 Environment = webHostEnvironment.EnvironmentName,
                 Headers = Request.Headers.ToDictionary(keyValuePair => keyValuePair.Key, keyValuePair => keyValuePair.Value)
             }, options);
