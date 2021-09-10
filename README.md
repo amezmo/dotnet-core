@@ -1,6 +1,6 @@
 # Demo .NET application
 
-This is a .NET application to deploy on [Amezmo](https://www.amezmo.com/platform/dotnet-core).
+This is a .NET application to deploy on [Amezmo](https://www.amezmo.com/platform/dotnet-core). Amezmo is a [managed app hosting](https://www.amezmo.com) platform for .NET
 
 
 
